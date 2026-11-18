@@ -14,6 +14,8 @@ public class contadortest {
 		for(Contador c : Contadores) {
 			System.out.printf("Contador %s: %d de %d%n", c.model, c.value, c.maxValue);
 		}
-	}
-
+		
+		
+	
+}
 }

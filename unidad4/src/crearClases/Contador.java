@@ -20,7 +20,17 @@ public class Contador {
 	 this(otro.maxValue, otro.model);
 	 this.value = otro.value;
  }
- 
+ public void show() {
+	System.out.printf("Contador Visitas: %d de %d%n", value, maxValue);
+	}
+boolean increment() {
+	 if(value == maxValue) {
+	 return false;
+ } else {
+	 value++;
+	 return true;
+ }
+ }
  
  
  
