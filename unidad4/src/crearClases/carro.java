@@ -22,9 +22,10 @@ public class carro {
 		Kmh = 200;
 		Funciona = true;
 	}
+
 	void show() {
-		System.out.printf("su color es %s, su potencia es de %f, su precio es %d, su velocidad es %d y %s", 
-							Color, Potencia, Precio, Kmh, Funciona? "si funciona" : "no funciona");
+		System.out.printf("su color es %s, su potencia es de %f, su precio es %d, su velocidad es %d y %s", Color,
+				Potencia, Precio, Kmh, Funciona ? "si funciona" : "no funciona");
 	}
 
 }

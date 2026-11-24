@@ -1,12 +1,12 @@
 package crearClases;
 
 public class Animales {
-	int precio;
-	String descripcion;
-	int cantidad;
-	String especie;
-	boolean oferta;
-	boolean ayuda;
+	private int precio;
+	private String descripcion;
+	private int cantidad;
+	private String especie;
+	private boolean oferta;
+	private boolean ayuda;
 
 	public Animales(int precio, String descripcion, int cantidad, String especie, boolean oferta, boolean ayuda) {
 		this.precio = precio > 0 ? precio : 1;

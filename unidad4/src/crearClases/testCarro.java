@@ -16,7 +16,7 @@ public class testCarro {
 		System.out.printf(
 				"el color del Audi es %s, su potencia es de %.1f, su precio es %d$, su velocidad es %d y %s%n",
 				Audi.Color, Audi.Potencia, Audi.Precio, Audi.Kmh, Audi.Funciona ? "si funciona" : "no funciona");
-		
+
 		Audi.show();
 	}
 
